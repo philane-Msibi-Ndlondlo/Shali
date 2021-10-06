@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 1280px;
+  height: 720px;
+  min-width: 1280px;
+  min-height: 720px;
+  max-width: 1280px;
+  max-height: 720px;
+  background-color: #2A3439;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper h3 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin: .6em 0;
+}
+
+.wrapper video {
+  width: 1000px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  background-color: #344148;
+}
+
+#screen_sources {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-direction: row;
+  margin: .5em 0;
+  padding: .7em 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  max-width: 800px;
+  margin-left: 120px;
+}
+
+#screen_sources li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 70px;
+  text-align: center;
+  color: #16A085;
+  background-color: #344148;
+  margin-right: 10px;
+  transition: .5s all;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+#screen_sources li p {
+  text-overflow: ellipsis;
+}
+
+#screen_buttons {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  margin-right: 130px;
+  margin-top: 1em;
+}
+
+#screen_buttons button {
+  display: inline-block;
+  padding: 0 15px;
+  width: 163px;
+  height: 52px;
+  text-align: center;
+  font-size: 18px;
+  outline: 0;
+  border: 0;
+  transition: .5s all;
+  cursor: pointer;
+}
+
+#start {
+  background-color: #16A085;
+  color: #fff;
+  margin-right: 12px;
+  
+}
+
+#stop {
+  background-color: #A04646;
+  color: #fff;
+}
